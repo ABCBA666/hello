@@ -1,0 +1,22 @@
+#application.yaml
+#server:
+#  port: 8082
+
+#普通的key-value
+name: cyy
+
+#对象
+student:
+  name: cyy
+  age: 3
+
+#行内写法
+student1: {name:cyy age:3}
+
+#数组
+pets:
+  - cat
+  - dog
+  - pig
+
+pets1: [cat,dog,pig]
